@@ -1,0 +1,715 @@
+{
+  "id": "a9091a3e-c324-4286-bb55-38b4d161a9a3",
+  "version": "2.0",
+  "name": "Task03",
+  "url": "https://fundayshop.com",
+  "tests": [{
+    "id": "dd49e608-c5cb-428c-9f93-3b0920c07f5b",
+    "name": "1",
+    "commands": [{
+      "id": "4c657fc1-979f-442d-a76a-423f165fe905",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75fefab0-cb96-45f4-a65d-d4a1921cb7f3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x757",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e452798a-958f-4fbc-8cad-78d061a17ffb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Женщины",
+      "targets": [
+        ["linkText=Женщины", "linkText"],
+        ["css=.nav-bar__menu .root-categories > li:nth-child(1) > .link", "css:finder"],
+        ["xpath=//a[contains(text(),'Женщины')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div[3]/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/zhenschiny')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Женщины')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81ded8be-afc7-448e-8f32-9370c437e460",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,426)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d0c0ada-e26f-4549-bb6b-c723572b938f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.media:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(2)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/298/242_335_6f9c/106296280299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div[2]/div[2]/div/div/div/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "37dc707e-d13f-4031-b6f6-dc30def15f8a",
+    "name": "2",
+    "commands": [{
+      "id": "0102495c-c56d-4dde-b717-b34e0da08052",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cd86cda-541e-4c54-8c66-54e393da5cc1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x757",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cec5c974-77a6-4ee8-8e59-15cee1e503db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Женщины",
+      "targets": [
+        ["linkText=Женщины", "linkText"],
+        ["css=.nav-bar__menu .root-categories > li:nth-child(1) > .link", "css:finder"],
+        ["xpath=//a[contains(text(),'Женщины')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div[3]/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/zhenschiny')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Женщины')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "679472d9-48e4-4a21-a300-13d83a496779",
+      "comment": "",
+      "command": "click",
+      "target": "css=.media:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(2)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/009/242_335_1137/106296260299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div[2]/div[2]/div/div/div/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f996fd90-3714-4f50-9bed-692b8b521c83",
+    "name": "4",
+    "commands": [{
+      "id": "27485eea-a9a9-429f-a3ed-db5e3b81ec32",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79eeace7-bdd8-470e-8707-c1961220fb0d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x757",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6f5f3e7-da78-4f34-81ac-834954a47320",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Женщины",
+      "targets": [
+        ["linkText=Женщины", "linkText"],
+        ["css=.nav-bar__menu .root-categories > li:nth-child(1) > .link", "css:finder"],
+        ["xpath=//a[contains(text(),'Женщины')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div[3]/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/zhenschiny')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Женщины')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5513c368-7969-4f74-b01e-d2f8a6557ef3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.banners-slot:nth-child(1) .banner:nth-child(1) .media",
+      "targets": [
+        ["css=.banners-slot:nth-child(1) .banner:nth-child(1) .media", "css:finder"],
+        ["xpath=//img[@alt='rowbanner2_category']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div[2]/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd019a40-c2c3-40b0-86df-ce199f86e230",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.banners-slot:nth-child(1) .banner:nth-child(1) .media",
+      "targets": [
+        ["css=.banners-slot:nth-child(1) .banner:nth-child(1) .media", "css:finder"],
+        ["xpath=//img[@alt='rowbanner2_category']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div[2]/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c239d986-51e4-4f75-855f-94d7b87a86c0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,999)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76933688-2881-4327-95f2-82283bb0c3fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.media:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(2)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/298/242_335_6f9c/106296280299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div[2]/div[2]/div/div/div/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94ebf700-536a-4659-96ff-0e2ace48c7cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-size-sizes__item-new:nth-child(3)",
+      "targets": [
+        ["css=.select-size-sizes__item-new:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[3]/div[3]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1584704d-c99e-4ad7-89c3-dafe735ae070",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-button__text:nth-child(2)",
+      "targets": [
+        ["css=.ui-button__text:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[3]/div[4]/button/div/div", "xpath:idRelative"],
+        ["xpath=//button/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9500adcf-c3af-4154-8444-5229dc3e6963",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icons:nth-child(6) > .control-cart .sprite-icon",
+      "targets": [
+        ["css=.icons:nth-child(6) > .control-cart .sprite-icon", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7d75945c-4b1b-4dbc-b6d3-922efcca6e99",
+    "name": "5",
+    "commands": [{
+      "id": "36c91d7b-0e47-42fd-b203-16618d011b52",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e505228-9ada-4038-8e41-ce879b6b7dad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x757",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc493986-09d2-451b-b4d1-92de95bb2020",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Женщины",
+      "targets": [
+        ["linkText=Женщины", "linkText"],
+        ["css=.nav-bar__menu .root-categories > li:nth-child(1) > .link", "css:finder"],
+        ["xpath=//a[contains(text(),'Женщины')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div[3]/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/zhenschiny')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Женщины')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d321f1fe-2e1d-47c6-ad68-76f1f9bc54bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Головные уборы",
+      "targets": [
+        ["linkText=Головные уборы", "linkText"],
+        ["css=.category:nth-child(5) > .subcategory:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Головные уборы')])[17]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[5]/ul[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/zhenschiny/aksessuary/golovnye-ubory?sortType=NEWEST_FIRST')]", "xpath:href"],
+        ["xpath=//div[5]/ul[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40c88390-27c9-4770-bdf7-3bdbc4635dc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > .product-list-item .cart-button use",
+      "targets": [
+        ["css=div:nth-child(4) > .product-list-item .cart-button use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "79d5d740-d9b3-45b9-bff1-b8d004d660e1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(4) > .product-list-item > .product-list-item__wrapper > .media",
+      "targets": [
+        ["css=div:nth-child(4) > .product-list-item > .product-list-item__wrapper > .media", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/da5/242_335_744f/114535610299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[4]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f74d85b-7c5a-43b9-8b48-10c4f03f8027",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.media:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(2)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/046/242_335_3ea7/114232630299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[4]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a08d6fc-4285-44ec-9bdc-9346d68cce2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-sizes-horizontal__wrapper:nth-child(3) .product-sizes-horizontal-item",
+      "targets": [
+        ["css=.product-sizes-horizontal__wrapper:nth-child(3) .product-sizes-horizontal-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[4]/a/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3cd5084-dbe7-4a16-b004-068ade9207c0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(4) > .product-list-item .product-markers__item",
+      "targets": [
+        ["css=div:nth-child(4) > .product-list-item .product-markers__item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[4]/a/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b3f99ae-5d19-4816-bc49-1509a3c89859",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div:nth-child(4) > .product-list-item .product-markers__item",
+      "targets": [
+        ["css=div:nth-child(4) > .product-list-item .product-markers__item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[4]/a/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed1f9cf5-5a1b-431c-a629-799b67c85300",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,841.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c256561-da61-4158-98cc-a4257964df96",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(5) .product-list-item__wrapper > .media",
+      "targets": [
+        ["css=div:nth-child(5) .product-list-item__wrapper > .media", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/900/242_335_57ab/114535620299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[5]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0df66eb3-899d-4b83-b1fb-e727bde65c87",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.media:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(2)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/cd4/242_335_cb3c/114232580299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[5]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5627420-554d-4301-a0fc-792bcf0a6d46",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5) .cart-button > .sprite-icon",
+      "targets": [
+        ["css=div:nth-child(5) .cart-button > .sprite-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "da338f01-4a64-42b6-b539-3380a906a793",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(5) .product-list-item__wrapper > .media",
+      "targets": [
+        ["css=div:nth-child(5) .product-list-item__wrapper > .media", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/900/242_335_57ab/114535620299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[5]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a504e41-3cfa-497f-92ac-282fded6468e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.media:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(2)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/dfb/242_335_bd2c/114232560299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[5]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87cbd59e-2e89-4a85-a979-205de4137953",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-sizes-horizontal__wrapper:nth-child(3) > .product-sizes-horizontal__sizes",
+      "targets": [
+        ["css=.product-sizes-horizontal__wrapper:nth-child(3) > .product-sizes-horizontal__sizes", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[5]/a/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2e32784-60e9-4278-8118-6ed5e67b1fd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-sizes-horizontal__wrapper:nth-child(3) .product-sizes-horizontal-item",
+      "targets": [
+        ["css=.product-sizes-horizontal__wrapper:nth-child(3) .product-sizes-horizontal-item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[5]/a/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/div/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5815cd79-5ae1-401b-8a69-f0eae6906aa9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(5) .product-markers__item",
+      "targets": [
+        ["css=div:nth-child(5) .product-markers__item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[5]/a/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fbdd2b9-643b-4cd2-b447-b71056f51c0c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.product-list-item__layout:nth-child(3) .product-markers__item",
+      "targets": [
+        ["css=.product-list-item__layout:nth-child(3) .product-markers__item", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[5]/a/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b157b2b9-6dbc-479f-92c0-0ac926eaed0f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(6) .product-list-item__layout",
+      "targets": [
+        ["css=div:nth-child(6) .product-list-item__layout", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[6]/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae03edad-d18a-46a0-bc78-2c5b72786faa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.layout_visible",
+      "targets": [
+        ["css=.layout_visible", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[6]/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a27cec4-c154-4d52-83ae-7c0a99c35f36",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(7) .product-list-item__wrapper > .media",
+      "targets": [
+        ["css=div:nth-child(7) .product-list-item__wrapper > .media", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/603/242_335_0f21/114535650299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[7]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[7]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73f30101-fa11-4e92-9e12-730121eeef56",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.media:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(2)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/603/242_335_0f21/114535650299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[2]/div[2]/div/div/div[7]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[7]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfbec0fc-5676-47b2-aaac-17d067b02709",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,436.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bae1e89b-34a0-4d60-9fbc-59a29c284572",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icons:nth-child(4) > .control-cart use",
+      "targets": [
+        ["css=.icons:nth-child(4) > .control-cart use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0a98249-d904-4ac0-9221-9e026017feb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shipping-group-total__chevron > path",
+      "targets": [
+        ["css=.shipping-group-total__chevron > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8746415e-980e-4f64-abd0-98e415f94fea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shipping-group-total__chevron > path",
+      "targets": [
+        ["css=.shipping-group-total__chevron > path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b4edc249-03e9-492b-9c4d-08170f0091e1",
+    "name": "6",
+    "commands": [{
+      "id": "ff9c80ab-6c30-480a-b0d3-d5b6b42efa93",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78d2160b-d906-40f1-ad67-aa9de8e6dd85",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x757",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0142767b-9047-4cb4-9269-8e5941ada455",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Женщины",
+      "targets": [
+        ["linkText=Женщины", "linkText"],
+        ["css=.nav-bar__menu .root-categories > li:nth-child(1) > .link", "css:finder"],
+        ["xpath=//a[contains(text(),'Женщины')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div[3]/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/zhenschiny')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Женщины')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb4cdb9f-1b7b-49e7-b3f0-81011670ffde",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.banners-slot:nth-child(1) .banner:nth-child(1) .media",
+      "targets": [
+        ["css=.banners-slot:nth-child(1) .banner:nth-child(1) .media", "css:finder"],
+        ["xpath=//img[@alt='rowbanner2_category']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div[2]/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ef32552-99ad-459b-ac52-b72b99753018",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.product-gallery-slot:nth-child(2) .swiper-slide:nth-child(1) .product-list-item__wrapper:nth-child(1) > .media:nth-child(1)",
+      "targets": [
+        ["css=.product-gallery-slot:nth-child(2) .swiper-slide:nth-child(1) .product-list-item__wrapper:nth-child(1) > .media:nth-child(1)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/4bd/242_335_aa67/114534550299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div[2]/div[2]/div/div/div/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e0f62cd-4835-45b2-8dc5-58d148f1f824",
+      "comment": "",
+      "command": "click",
+      "target": "css=.content:nth-child(2)",
+      "targets": [
+        ["css=.content:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc9c9f7f-3f32-4bd1-ae37-02ed52b409e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.media:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(2)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/36a/242_335_a3f1/106296270299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div[2]/div[2]/div/div/div/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96c8b161-117a-4334-8207-c3e1702229be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.favorite-button:nth-child(3) use",
+      "targets": [
+        ["css=.favorite-button:nth-child(3) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b15abba0-206b-4828-811f-891d9dded0b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icons:nth-child(6) > .icon:nth-child(5) use",
+      "targets": [
+        ["css=.icons:nth-child(6) > .icon:nth-child(5) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "68d7f29d-9622-4ce1-add5-a9d632a112c9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.favorite-gallery__item .product-list-item__wrapper > .media",
+      "targets": [
+        ["css=.favorite-gallery__item .product-list-item__wrapper > .media", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.fundayshop.com/upload/mdm/media_content/resize/4bd/242_335_aa67/114534550299.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[3]/div/div/div[2]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2bc6ab42-e5b4-4b85-a25a-3a36c866b294",
+    "name": "7",
+    "commands": [{
+      "id": "75c3ec44-584f-4825-a27a-e4fbbf965ede",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b3c6414-f3ef-4bbf-8097-50bfb44e1771",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1427x1378",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f41d444f-58c8-499c-946c-63a51df47172",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Девочки",
+      "targets": [
+        ["linkText=Девочки", "linkText"],
+        ["css=.nav-bar__menu .root-categories > li:nth-child(3) > .link", "css:finder"],
+        ["xpath=//a[contains(text(),'Девочки')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div[3]/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/devochki')]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Девочки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41143849-df36-4ea0-bd62-aa5ac865c402",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Верхняя одежда",
+      "targets": [
+        ["linkText=Верхняя одежда", "linkText"],
+        ["css=.category:nth-child(4) > .subcategory:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Верхняя одежда')])[9]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div[4]/ul/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/devochki/odezhda/verkhnyaya-odezhda?sortType=NEWEST_FIRST')]", "xpath:href"],
+        ["xpath=//div[4]/ul/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "500026f7-6d53-4d93-b9ec-4bd4f3610694",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Брюки и комбинезоны",
+      "targets": [
+        ["linkText=Брюки и комбинезоны", "linkText"],
+        ["css=li > div:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Брюки и комбинезоны')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div[4]/div/div/div[4]/ul/li/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/devochki/odezhda/verkhnyaya-odezhda/bryuki-i-kombinezony?sortType=NEWEST_FIRST')]", "xpath:href"],
+        ["xpath=//li/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Брюки и комбинезоны')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe2a5f53-ab6f-4ad5-b62a-f8e893a4b806",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon > path",
+      "targets": [
+        ["css=.icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6044b519-9346-4e53-83fb-aeb78d147929",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > span",
+      "targets": [
+        ["css=div:nth-child(3) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/div/div[2]/div/div/div[2]/div/div/div/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'По скидке')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "77c4ee27-d7fa-45b4-ae31-d046d853153a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dd49e608-c5cb-428c-9f93-3b0920c07f5b"]
+  }],
+  "urls": ["https://fundayshop.com/"],
+  "plugins": []
+}
